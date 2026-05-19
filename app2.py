@@ -2,10 +2,25 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
+import gdown
 
 # =========================
 # LOAD TRAINED PIPELINE MODEL
 # =========================
+# =========================
+# DOWNLOAD MODEL FROM DRIVE
+# =========================
+ 
+
+file_id = "1lT6bwTTJn1NcNQXuBkn4xFGuvBjq8cy "
+ 
+url = f"https://drive.google.com/uc?id={file_id}"
+output = "model.pkl"
+ 
+gdown.download(url, output, quiet=False)
+ 
+# Load pipeline model
+
 model = joblib.load("model.pkl")
 
 # =========================
