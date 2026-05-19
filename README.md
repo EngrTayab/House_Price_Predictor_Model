@@ -3,6 +3,21 @@ An end-to-end Machine Learning regression project built to predict house prices 
 **House Price Prediction – Machine Learning Project**
 This project predicts house prices using multiple machine-learning models.
 It includes data preprocessing, feature engineering, pipelines, model training, evaluation, and a Streamlit web app for real-time price prediction.
+🔗 Live App
+**App is deployed here:**
+       https://house-price-aiml-prediction.streamlit.app/
+📂 Project Files
+File	Description
+model.ipynb-->Full data cleaning, preprocessing & model training code
+app.py-->Streamlit web app (loads model from Google Drive)
+requirements.txt-->Required Python dependencies
+README.md-->Project documentation
+🚀 Deployment Note
+model.pkl is not stored in GitHub because of size limit.
+The Streamlit app loads the model directly from Google Drive using:
+https://drive.google.com/uc?export=download&id=YOUR_FILE_ID
+
+
 **📊 Project Features**
 
 -Handles missing values
