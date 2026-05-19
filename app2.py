@@ -12,7 +12,7 @@ import gdown
 # =========================
  
 
-file_id = "1lT6bwTTJn1NcNQXuBkn4xFGuvBjq8cy "
+file_id = "1lT6bwTTJn1NcNQXuBkn4xFGuvBjq8cy_"
  
 url = f"https://drive.google.com/uc?id={file_id}"
 output = "model.pkl"
